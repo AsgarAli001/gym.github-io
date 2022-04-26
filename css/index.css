@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+html {
+    font-size: 62.5%;
+    /* padding: 2rem; */
+}
+
+
+/* HEADER SECTION */
+
+header {
+    padding: 0;
+    margin-top: -.8rem;
+}
+
+header .header-top {
+    padding: 0;
+    margin: 0;
+    height: 4.5rem;
+    clear: both;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .header-top .header-top-left {
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+header .header-top .header-top-left .list-item {
+    display: inline-block;
+}
+
+header .header-top .header-top-left .list-item .list-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+header .header-top .header-top-left .list-item .list-link i {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 7px;
+}
+
+header .header-top .header-top-right {
+    display: inline-block;
+    float: right;
+    list-style: none;
+}
+
+header .header-top .header-top-right .list-item {
+    display: inline-block;
+}
+
+header .header-top .header-top-right .list-item .list-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+}
+
+header .header-bottom {
+    clear: both;
+}
+
+header .header-bottom .logo-box {
+    float: left;
+}
+
+header .header-bottom .logo-box .gym-logo img {
+    height: 120px;
+}
+
+header .header-bottom ul {
+    list-style: none;
+    /* position: relative; */
+    margin-right: 1.5rem;
+}
+
+header .header-bottom ul .list-item {
+    float: right;
+    display: inline-block;
+    margin-top: 3.5rem;
+}
+
+header .header-bottom ul .list-item .list-link {
+    font-size: 1.7rem;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* HEADER SECTION ENDS */
+
+
+/*  SLIDER SECTION  */
+
+.slider-section {
+    padding-top: 0;
+    margin-top: -1rem;
+    height: 100vh;
+    background-image: url(../img/nav-img.avif);
+    background-size: cover;
+}
+
+.slider-section .slider-text {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-section .slider-text .slider-heading {
+    display: block;
+}
+
+.slider-section .slider-text .slider-heading .primary-heading {
+    font-size: 3rem;
+    color: #ff0000;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.slider-section .slider-text .slider-heading .secondary-heading {
+    font-size: 2.5rem;
+    color: #ff0000;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.slider-section .slider-text .slider-button {
+    display: block;
+    margin-top: 1rem;
+}
+
+.slider-section .slider-text .slider-button a {
+    font-size: 1.6rem;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 6px;
+    padding: .4rem 2rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+}
+
+.slider-section .slider-text .slider-button a:hover {
+    background-color: #dfdfdf;
+    color: #000;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+
+/* SLIDER SECTION ENDS */
+
+
+/* ABOUT US SECTION */
+
+.main-heading {
+    text-align: center;
+}
+
+.main-heading h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main-heading p {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.about-us {
+    padding: 2rem 0;
+}
+
+.about-us .about-us-box {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-us .about-us-box .about-us-text {
+    font-size: 1.6rem;
+}
+
+.about-us .about-us-box .about-us-text .tertiary-heading {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.about-us .about-us-box .about-us-text p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.about-us .about-us-box .about-us-button {
+    margin-top: 3rem;
+}
+
+.about-us .about-us-box .about-us-button a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 0.5rem 1.3rem;
+    border-radius: 5px;
+}
+
+.about-us .about-us-box .about-us-button a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+/* ABOUT US SECTION ENDS */
+
+
+/* GALLERY SECTION */
+
+.gallery-section {
+    padding: 2rem 0;
+    background-color: #eee;
+}
+
+.gallery-section .gallery-image {
+    margin-top: 3rem;
+}
+
+.gallery-section .gallery-image .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gallery-section .gallery-image .gallery-img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+
+/* GALLERY SECTION ENDS */
+
+
+/* CONTACT US SECTION */
+
+.contact-us {
+    padding: 2rem 0;
+}
+
+.contact-us .contact-us-list ul {
+    list-style: none;
+    margin-top: 5rem;
+}
+
+.contact-us .contact-us-list ul .list-item {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5rem;
+}
+
+.contact-us .contact-us-list ul .list-item i {
+    display: block;
+    font-size: 4rem;
+    color: #e74747;
+}
+
+.contact-us .contact-us-list ul .list-item .contact-info {
+    display: block;
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.get-in-touch .form-group {
+    margin-top: 3rem;
+}
+
+.get-in-touch .form-group .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.get-in-touch .form-group .input-control {
+    width: 30%;
+    height: 3rem;
+    padding: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.get-in-touch .form-group .textarea-control {
+    width: 97.4%;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 3px;
+}
+
+.get-in-touch-button {
+    margin: 3rem 0;
+}
+
+.get-in-touch-button a {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #000;
+    padding: 0.6rem 3rem;
+    font-weight: 500;
+}
+
+.get-in-touch-button a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* CONTACT UUS SECTION ENDS */
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #000;
+    padding: 3rem;
+    margin-bottom: 0;
+}
+
+footer .footer-section .footer-logo-box {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+footer .footer-section .footer-logo-box .footer-logo img {
+    height: 20rem;
+}
+
+footer .footer-section .footer-list {
+    text-align: center;
+}
+
+footer .footer-section .footer-list ul {
+    list-style: none;
+}
+
+footer .footer-section .footer-list ul .list-item {
+    display: inline-block;
+}
+
+footer .footer-section .footer-list ul .list-item .list-link {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #000;
+    padding: 1rem 5rem;
+    /* margin-right: 1rem; */
+}
+
+.footer-bottom .footer-bottom-text {
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-right: -4rem;
+}
+
+
+/* FOOTER SECTION ENDS */
+
+
+/* FORM SECTION */
+
+
+/* // copy paste from here// */
+
+.form-section {
+    height: 97.6vh;
+    background-image: url(../img/form-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-size: cover; */
+}
+
+.form-section .sign-in-form {
+    height: 97.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section .sign-in-form .form-group {
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-top: 25rem;
+}
+
+.form-section .sign-in-form .form-group .label-control {
+    display: block;
+    color: #fff;
+    margin-bottom: .5rem;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-section .sign-in-form .form-group .input-control {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+    padding: 1rem 4rem;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button a {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #000;
+    padding: .5rem 2.5rem;
+}
+
+.form-button a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 1s;
+}
